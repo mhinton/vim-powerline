@@ -41,7 +41,7 @@ call Pl#Hi#Allocate({
 
 let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
-		\ 'n': ['white', 'gray2'],
+		\ 'n': ['white', 'darkestblue'],
 		\ 'N': ['white', 'gray1'],
 		\ 'i': ['white', 'darkestblue'],
 		\ }),
@@ -61,13 +61,13 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
-		\ 'n': ['gray10', 'gray2', ['bold']],
+		\ 'n': ['gray10', 'darkestblue', ['bold']],
 		\ 'N': ['gray8', 'gray1'],
 		\ 'i': ['white', 'darkestblue', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath'], {
-		\ 'n': ['gray10', 'gray2'],
+		\ 'n': ['gray10', 'darkestblue'],
 		\ 'N': ['gray8', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkestblue'],
 		\ }),
@@ -85,8 +85,8 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['gray8', 'gray2'],
-		\ 'N': ['gray8', 'gray4'],
+		\ 'n': ['gray8', 'darkestblue'],
+		\ 'N': ['gray5', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkestblue'],
 		\ }),
 	\
@@ -127,7 +127,7 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['white', 'darkestgreen', ['bold']],
+		\ 'n': ['gray10', 'darkestgreen', ['bold']],
 		\ 'N': ['mediumgreen', 'gray2', ['bold']],
 		\ }),
 	\
