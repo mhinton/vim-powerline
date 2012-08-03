@@ -79,7 +79,7 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.flags'], {
-		\ 'n': ['brightestred', 'gray1', ['bold']],
+		\ 'n': ['brightestred', 'darkestblue', ['bold']],
 		\ 'N': ['darkred', 'gray1', ['bold']],
 		\ 'i': ['brightestred', ['bold']],
 		\ }),
