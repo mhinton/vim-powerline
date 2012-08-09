@@ -2,6 +2,7 @@ call Pl#Hi#Allocate({
 	\ 'black'          : 16,
 	\ 'white'          : 231,
 	\
+	\ 'customcolor'    : 23,
 	\ 'darkestgreen'   : 22,
 	\ 'darkgreen'      : 28,
 	\ 'mediumgreen'    : 70,
@@ -41,13 +42,13 @@ call Pl#Hi#Allocate({
 
 let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
-		\ 'n': ['white', 'gray4'],
+		\ 'n': ['white', 'customcolor'],
 		\ 'N': ['white', 'gray1'],
 		\ 'i': ['white', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['gray10', 'darkestcyan', ['bold']],
+		\ 'n': ['gray10', 'customcolor', ['bold']],
 		\ 'i': ['darkestcyan', 'white', ['bold']],
 		\ 'v': ['darkred', 'brightorange', ['bold']],
 		\ 'r': ['white', 'brightred', ['bold']],
@@ -55,49 +56,49 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize'], {
-		\ 'n': ['gray9', 'gray4'],
+		\ 'n': ['gray9', 'customcolor'],
 		\ 'N': ['gray4', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
-		\ 'n': ['gray10', 'gray4', ['bold']],
+		\ 'n': ['gray10', 'customcolor', ['bold']],
 		\ 'N': ['gray8', 'gray1'],
 		\ 'i': ['white', 'darkestblue', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath'], {
-		\ 'n': ['gray10', 'gray4'],
+		\ 'n': ['gray10', 'customcolor'],
 		\ 'N': ['gray8', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['static_str'], {
-		\ 'n': ['white', 'gray4'],
+		\ 'n': ['white', 'customcolor'],
 		\ 'N': ['gray7', 'gray1'],
 		\ 'i': ['white', 'darkblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.flags'], {
-		\ 'n': ['brightestred', 'gray4', ['bold']],
+		\ 'n': ['brightestred', 'customcolor', ['bold']],
 		\ 'N': ['darkred', 'gray1', ['bold']],
 		\ 'i': ['brightestred', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['gray8', 'gray4'],
+	\ Pl#Hi#Segments(['current_function', 'tagbar:currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
+		\ 'n': ['gray9', 'customcolor'],
 		\ 'N': ['gray5', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkestblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
-		\ 'n': ['gray2', 'gray10', ['bold']],
+		\ 'n': ['gray3', 'gray10', ['bold']],
 		\ 'N': ['gray7', 'gray1', ['bold']],
 		\ 'i': ['darkestcyan', 'mediumcyan', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
-		\ 'n': ['brightestorange', 'gray2', ['bold']],
+		\ 'n': ['brightestorange', 'gray3', ['bold']],
 		\ 'i': ['brightestorange', 'darkestblue', ['bold']],
 		\ }),
 	\
@@ -128,7 +129,7 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
 		\ 'n': ['gray10', 'darkestgreen', ['bold']],
-		\ 'N': ['mediumgreen', 'gray2', ['bold']],
+		\ 'N': ['mediumgreen', 'gray2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
@@ -138,7 +139,7 @@ let g:Powerline#Colorschemes#mhinton#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
 		\ 'n': ['white', 'darkestgreen'],
-		\ 'N': ['white', 'gray2'],
+		\ 'N': ['mediumgreen', 'gray2'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
