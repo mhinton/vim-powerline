@@ -2,7 +2,7 @@ call Pl#Hi#Allocate({
 	\ 'black'          : 16,
 	\ 'white'          : 231,
 	\
-	\ 'customcolor'    : 23,
+	\ 'customcolor'    : 238,
 	\ 'darkestgreen'   : 22,
 	\ 'darkgreen'      : 28,
 	\ 'mediumgreen'    : 70,
