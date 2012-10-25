@@ -1,6 +1,3 @@
-" Authors:
-"   @skwp
-"
 " This colorscheme is based on Solarized-dark colors, combined
 " with Powerline native colors
 call Pl#Hi#Allocate({
